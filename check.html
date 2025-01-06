@@ -1,0 +1,73 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .ticket-check-container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .ticket-check-header {
+    background-color: rgb(255, 91, 79);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .ticket-check-header h2 {
+    margin: 0;
+  }
+
+  .ticket-check-form {
+    padding: 20px;
+  }
+
+  .ticket-check-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .ticket-check-form input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .ticket-check-form input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(248, 64, 64);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .ticket-check-form input[type="submit"]:hover {
+    background-color: #444;
+  }
+</style>
+
+<div class="ticket-check-container">
+  <div class="ticket-check-header">
+    <h2>Check Ticket</h2>
+  </div>
+  <div class="ticket-check-form">
+    <form>
+      <label for="ticket-number">Ticket Number:</label>
+      <input type="text" id="ticket-number" name="ticket-number"><br><br>
+      <label for="passenger-name">Passenger Name:</label>
+      <input type="text" id="passenger-name" name="passenger-name"><br><br>
+      <input type="submit" value="SUBMIT">
+    </form>
+  </div>
+</div>

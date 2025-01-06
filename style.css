@@ -1,0 +1,159 @@
+head{
+    text-align:center;
+    }
+    .li{
+    display: flex;
+    position: sticky;
+    z-index: 999;
+    background-color: #f75252;
+    top :0px;
+    }
+    a{
+    text decoration: none;
+    padding: 20px 20px 20px 20px;
+    font-size:40px;
+    color: #ddd
+    }
+    .division{
+    height:700px;
+    background-color: #000000;
+    }
+    .division p{
+    padding-top:10rem;
+    }
+    .li{
+    top:0px;
+    }
+    a{
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    font-size: 40px;
+    color: #000000;
+    }
+    .division p{
+    padding-top: 10rem
+    }
+    .IP {
+    border: none;
+    background: #fdfdfd;
+    }
+    
+    .IP, .lefticon {
+       display: inline-block;
+    }
+    
+    .IP, .pos-rel {
+       position: relative;
+    }
+    .fqftib{
+        top: -219px;
+        height: fit-content;
+        padding: 2rem;
+        background: rgb(228, 79, 79);
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
+        border-radius: 32px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 100px;
+        padding: 200px;
+    }
+    .video-bg{
+        position: absolute;
+        z-index: -1;
+        top:0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    marquee{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size:x-large;
+    
+    }
+    .booking-container {
+        right: 250px;
+        position: relative;
+        background-color: #f56e6e;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        display: flex;
+    }
+    h2 {
+        text-align: center;
+        color: #000000;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    label {
+        display: block;
+        font-size: 14px;
+        color: #555;
+    }
+    input[type="text"], input[type="date"], select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #000000;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #1d41e4;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-btn {
+        
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .dropdown-btn:hover {
+        background-color: #000000;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0; 
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }

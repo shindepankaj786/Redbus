@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cancel Ticket</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		.cancel-form {
+			width: 500px;
+			margin: 50px auto;
+			padding: 20px;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+		.cancel-form label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		.cancel-form input[type="text"], .cancel-form input[type="number"] {
+			width: 100%;
+			height: 40px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+		.cancel-form input[type="submit"] {
+			width: 100%;
+			height: 40px;
+			background-color: #ff5f5f;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.cancel-form input[type="submit"]:hover {
+			background-color: #f02828;
+		}
+	</style>
+</head>
+<body>
+	<div class="cancel-form">
+		<h2>Cancel Ticket</h2>
+		<form>
+			<label for="ticket-number">Ticket Number:</label>
+			<input type="number" id="ticket-number" required>
+			<label for="passenger-name">Passenger Name:</label>
+			<input type="text" id="passenger-name" required>
+			<label for="cancel-reason">Reason for Cancellation:</label>
+			<textarea id="cancel-reason" rows="5" cols="30"></textarea>
+			<input type="submit" value="Cancel Ticket">
+		</form>
+	</div>
+</body>
+</html>
